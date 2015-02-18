@@ -88,11 +88,22 @@
     <h2>Quiz</h2>
     <dl>
       <dt>What is an 'event listener'?</dt>
-      <dd>(put your answer here)</dd>
+      <dd>An event listener is used to process events.</dd>
       <dt>How do you attach an event listener that responds to a 'click' event to an element using jQuery?</dt>
-      <dd>(put your answer here)</dd>
+      <dd>You need to use a selector and a method, and an anonymous function:<br>
+          Example:<br>
+          $( "#target" ).click(function() {<br>
+          alert( "Handler for .click() called." );<br>
+          });<br>     
+          In this example the selector is  $( "target" )<br>
+                          the method is  .click<br>
+                          and the anonymous function is (function() {<br>
+              alert( "Handler for .click() called." );<br>
+});<br>
+ 
+</dd>
       <dt>What is the ID of the place where the output of the loop function should go?</dt>
-      <dd>(put your answer here)</dd>
+      <dd>The output of the loop function should go into a variable called "#output_area" until a particular loop condition is no longer true or until you encounter a break statement inside a loop.</dd>
       <dt>What is the class that changes the style of the output area?</dt>
       <dd>(put your answer here)</dd>
       <dt>What does the selector input[value="Run Script"] do? Enter the URLs of the places you researched with your explanation.</dt>
